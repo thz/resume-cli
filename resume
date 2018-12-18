@@ -1,0 +1,3 @@
+#!/bin/sh
+image=resume-cli
+docker run --rm -it -v `pwd`:/home/user $image "$@"
